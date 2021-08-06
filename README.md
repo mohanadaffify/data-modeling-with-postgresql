@@ -23,11 +23,11 @@ thirdly we get the raw files that will be processes as raw entries for the datab
 then we peocess the log and data files and insert them in the corresponding tables of the database 
 <br /> 
 ### create_tables.py:
-<br /> 
+
 establish the connection with the database 
 <br /> 
 execute the queries in te sql_queries.py 
 <br /> 
 ### etl.py :
-<br /> 
+
 auto create data pipelines.

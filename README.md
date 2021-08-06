@@ -10,11 +10,11 @@ The star schema has 1 *fact* table (songplays), and 4 *dimension* tables (users,
 
 ## the creation process is as follows : 
 
-**sql_queries.py**: 
+#### **sql_queries.py**: 
 <br /> 
 used to create and drop  the fact and dimension tables 
 <br /> 
-**etl.ipynb**:
+#### **etl.ipynb**:
 firstly sql_queries.py file is imported
 <br /> 
 secondly a connection to database is established 
@@ -23,12 +23,12 @@ thirdly we get the raw files that will be processes as raw entries for the datab
 <br /> 
 then we peocess the log and data files and insert them in the corresponding tables of the database 
 <br /> 
-**create_tables.py**:
+#### **create_tables.py**:
 <br /> 
 establish the connection with the database 
 <br /> 
 execute the queries in te sql_queries.py 
 <br /> 
-**etl.py** :
+#### **etl.py** :
 <br /> 
 auto create data pipelines.

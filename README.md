@@ -6,7 +6,7 @@ This **Udacity Data Engineering nanodegree** project creates a postgres database
 
 The star schema has 1 *fact* table (songplays), and 4 *dimension* tables (users, songs, artists, time)..
 
-![schema] (untitled Workspace.png)
+![schema] (Untitled Workspace.png)
 
 ## the creation process is as follows : 
 

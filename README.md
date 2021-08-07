@@ -6,28 +6,30 @@ This **Udacity Data Engineering nanodegree** project creates a postgres database
 
 The star schema has 1 *fact* table (songplays), and 4 *dimension* tables (users, songs, artists, time)..
 
-![](Untitled_Workspace.png?raw=true)
+![](untitled workspace.png?raw=true)
 
 ## the creation process is as follows : 
 
-###  sql_queries.py: 
+**sql_queries.py**: 
 used to create and drop  the fact and dimension tables 
-<br /> 
-### etl.ipynb:
+**etl.ipynb**:
 firstly sql_queries.py file is imported
-<br /> 
 secondly a connection to database is established 
-<br /> 
 thirdly we get the raw files that will be processes as raw entries for the database 
-<br /> 
 then we peocess the log and data files and insert them in the corresponding tables of the database 
-<br /> 
-### create_tables.py:
-
+**create_tables.py**:
 establish the connection with the database 
-<br /> 
 execute the queries in te sql_queries.py 
-<br /> 
-### etl.py :
+**etl.py** :
+auto create data pipelines. 
 
-auto create data pipelines.
+## How to run the scripts : 
+At the terminal:
+
+1. ```python create_tables.py```
+2. ```python etl.py```
+
+In IPython:
+
+1. ```run create_tables.py```
+2. ```run etl.py```
